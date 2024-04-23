@@ -1,0 +1,31 @@
+{
+  "trailingComma": "none",
+  "useTabs": false,
+  "printWidth": 80,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "avoid",
+  "proseWrap": "preserve",
+  "singleAttributePerLine": true,
+  "importOrderTypeScriptVersion": "5.0.0",
+  "importOrder": [
+    "<TYPES>",
+    "<THIRD_PARTY_MODULES>",
+    "^@/components(/.*)?$",
+    "^@/hooks(/.*)?$",
+    "^(@/api|@/services|@/config)(/.*)?$",
+    "^@/utils(/.*)?$",
+    "^[.]",
+    "^(?!.*[.]css$)[./].*$",
+    ".css$"
+],
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-classnames",
+    "prettier-plugin-merge"
+  ]
+}
